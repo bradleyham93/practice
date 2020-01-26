@@ -1,0 +1,31 @@
+.fourPart{
+    background-color: rgba(248, 248, 248, 0.726)
+}
+.fourPartContainer{
+    display:flex;
+
+    margin: 0 auto;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourPartItem{
+    width: 20%;
+    z-index: 3;
+    margin: 2em 0;
+    color: var(--dark);
+
+}
+
+.fourPartItem h4{
+    padding:.3em;
+    display: inline-block;
+}
+
+.fourPart i{
+    font-size: 2em;
+    color: var(--dark);
+  
+
+}

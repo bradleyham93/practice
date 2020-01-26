@@ -1,0 +1,19 @@
+
+.heroContent{
+  
+    height: 70vh;
+    margin-top: 70px;
+    background: linear-gradient(180deg, var(--dark), transparent), url('forrest.jpeg');
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heroContent h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom:5em;
+
+}

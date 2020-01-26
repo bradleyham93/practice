@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--dark);
+    height: 20vh;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.socialIconContainer{
+  
+}
+
+.socialIconContainer i{
+    font-size: 2em;
+    color: var(--feature);
+    padding:.5em
+     
+}

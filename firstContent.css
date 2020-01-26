@@ -1,0 +1,42 @@
+.halfs{
+    background-color:var(--light);
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.halfsContent{
+    padding: 3em;
+    padding-right: 9em;
+}
+.firstContent h4{
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+    color: var(--dark)
+    
+}
+
+.firstContentContainer{
+    display:flex;
+  
+
+}
+
+.firstContentImageContainer{
+    background-color: var(--light);
+    width:50%;
+}
+
+.firstContentRight{
+    width: 50%;
+    padding: 5em;
+}
+
+.firstContentImage{
+   background: url('pic.jpg');
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   margin-left:3em;
+   margin-top: 3em; 
+}

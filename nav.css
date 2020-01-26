@@ -1,0 +1,44 @@
+.navLink{
+    background-color: var(--dark);
+    padding: .5em;
+    border-radius: 2px;
+    text-decoration: none;
+    color:var(--light);
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    background-color: var(--dark);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
+
+}
+
+.navList{
+    display:flex;
+    height: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navItem{
+    margin: 10px;
+}
+
+
+.home{
+    margin-right: auto;
+}
+
+.navLink:hover{
+    background-color:rgba(255, 255, 255, 0.034);
+}
+
+.contact{
+    background-color: var(--feature)    
+}
