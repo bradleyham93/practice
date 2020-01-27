@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="fourPart.css">
     <link rel="stylesheet" href="firstContent.css">
     <link rel="stylesheet" href="secondContent.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="colors.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900&display=swap" rel="stylesheet">
@@ -45,7 +46,7 @@
 
         <div class="heroContent">
             <h1>Website</h1>
-            <p> p tag for practice</p>
+
         </div>
 
 
@@ -102,9 +103,34 @@
         </div>
 
         <div class="secondContent">
-            <div class="quote">
-                <div></div>
+            <div class="contentContainer secondContentContainer">
+
+                <div class="secondContentLeft">
+                    <div class="oppositeForm">
+                        <h1>Contact Us</h1>
+                        <p>Get in contact for a free quote</p>
+                    </div>
+                </div>
+
+                <div class="secondContentRight">
+                    <form action="index.html" class="form" method="post">
+                        <div class="form__inputs">
+                            <div class="legend">
+                                <h1 class="form__h1">Contact Form</h1>
+                                <p>Contact for free quote</p>
+                            </div>
+                            <input placeholder="Your Name:" type="text" class="form__input" id='name' name='user_name'>
+
+                            <input placeholder="Email:" type="email" class="form__input" id='email' name='user_email'>
+
+                            <input placeholder="Phone Number:" type="text" class="form__input" id='number' name='user_number'>
+                            <textarea class="form__input" name="user_bio" id="bio"></textarea>
+                            <button type="submit" class="form__button form__input">Free Quote</button>
+                        </div>
+                </div>
+                </form>
             </div>
+
 
         </div>
 
